@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mohsin Ali Asghar — Frontend Developer portfolio." />
+  <meta name="theme-color" content="#070a12" />
+  <title>Mohsin Ali Asghar | Developer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <div id="loader" class="loader">
+    <div class="loader-ring"></div>
+    <span>Loading experience<span class="dots">...</span></span>
+  </div>
+
+  <canvas id="space"></canvas>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home" aria-label="Mohsin home">
+        <span class="brand-mark">M</span>
+        <span>MOHSIN<span class="brand-dot">.</span></span>
+      </a>
+
+      <button class="menu-btn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <a class="nav-cta" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-orb orb-one"></div>
+      <div class="hero-orb orb-two"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="pulse"></span> AVAILABLE FOR OPPORTUNITIES</div>
+          <h1>Building digital<br /><span>experiences</span> that move.</h1>
+          <p class="hero-text">
+            I'm <strong>Mohsin Ali Asghar</strong>, an entry-level developer from Karachi
+            focused on responsive interfaces, clean code and turning ideas into useful web experiences.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary magnetic" href="#work">Explore my work <span>↗</span></a>
+            <a class="btn btn-ghost magnetic" href="Mohsin_Ali_Asghar_Modern_ATS_CV.pdf" target="_blank" rel="noopener">View CV <span>↓</span></a>
+          </div>
+
+          <div class="hero-meta">
+            <div><strong>01</strong><span>Frontend<br />Development</span></div>
+            <div><strong>02</strong><span>Full-stack<br />Foundations</span></div>
+            <div><strong>03</strong><span>Creative<br />Web UI</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay">
+          <div class="portrait-scene tilt-card">
+            <div class="portrait-halo"></div>
+            <div class="orbit orbit-a"></div>
+            <div class="orbit orbit-b"></div>
+            <div class="orbit-dot dot-a"></div>
+            <div class="orbit-dot dot-b"></div>
+
+            <div class="portrait-frame">
+              <div class="frame-corner top-left"></div>
+              <div class="frame-corner top-right"></div>
+              <div class="frame-corner bottom-left"></div>
+              <div class="frame-corner bottom-right"></div>
+              <img src="Mohsin-suit.jpeg" alt="Mohsin Ali Asghar" />
+            </div>
+
+            <div class="floating-chip chip-code"><span>&lt;/&gt;</span> CODE</div>
+            <div class="floating-chip chip-ui"><span>✦</span> UI / UX</div>
+            <div class="floating-chip chip-3d"><span>◈</span> 3D WEB</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-kicker">01 / ABOUT</span>
+            <h2>A developer who<br /><em>likes to build.</em></h2>
+          </div>
+          <p>From polished interfaces to database-backed applications, I'm growing a practical software toolkit one project at a time.</p>
+        </div>
+
+        <div class="about-grid">
+          <article class="glass-card about-main reveal">
+            <div class="card-number">01</div>
+            <h3>Frontend at heart.<br /><span>Software beyond the screen.</span></h3>
+            <p>
+              My foundation is in HTML, CSS, JavaScript and Bootstrap, with React.js as part of my
+              growing toolkit. I've also been expanding into PHP, Laravel, Java and C++ so I can
+              understand more of the stack behind the interface.
+            </p>
+            <p>
+              I care about responsive layouts, intuitive interactions and code that is understandable
+              enough to improve later.
+            </p>
+            <div class="location"><span>⌖</span> Karachi, Pakistan</div>
+          </article>
+
+          <article class="glass-card stat-card reveal reveal-delay">
+            <div class="mini-3d"><div class="cube"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+            <span class="stat-label">CURRENT FOCUS</span>
+            <strong>Web<br />Development</strong>
+            <p>Interfaces • APIs • Databases</p>
+          </article>
+
+          <article class="glass-card education-card reveal reveal-delay-2">
+            <span class="section-kicker">EDUCATION</span>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="timeline-dot"></span>
+                <div><strong>Aptech Malir</strong><small>Diploma in Software Engineering — Ongoing</small></div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-dot"></span>
+                <div><strong>DJ Sindh Govt. Science College</strong><small>Intermediate (Computer Science) — Grade A</small></div>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-dot"></span>
+                <div><strong>Karachi Public School</strong><small>Matriculation — Grade A1</small></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-kicker">02 / TOOLKIT</span>
+            <h2>Tools I use to<br /><em>make things happen.</em></h2>
+          </div>
+          <p>A growing stack spanning frontend, backend foundations, programming and everyday development workflow.</p>
+        </div>
+
+        <div class="skills-layout">
+          <div class="skill-orbit-wrap reveal">
+            <div class="skill-orbit">
+              <div class="orbit-ring ring-1"></div>
+              <div class="orbit-ring ring-2"></div>
+              <div class="orbit-ring ring-3"></div>
+              <div class="orbit-core"><span>DEV</span><small>STACK</small></div>
+
+              <span class="skill-node node-1">HTML</span>
+              <span class="skill-node node-2">CSS</span>
+              <span class="skill-node node-3">JS</span>
+              <span class="skill-node node-4">PHP</span>
+              <span class="skill-node node-5">LARAVEL</span>
+              <span class="skill-node node-6">JAVA</span>
+              <span class="skill-node node-7">C++</span>
+              <span class="skill-node node-8">REACT</span>
+            </div>
+          </div>
+
+          <div class="skill-list reveal reveal-delay">
+            <div class="skill-row"><span>HTML5 / CSS3</span><b>FRONTEND</b><i><u style="width:100%"></u></i></div>
+            <div class="skill-row"><span>JavaScript</span><b>FRONTEND</b><i><u style="width:100%"></u></i></div>
+            <div class="skill-row"><span>Bootstrap / jQuery</span><b>UI</b><i><u style="width:100%"></u></i></div>
+            <div class="skill-row"><span>PHP / Laravel</span><b>BACKEND</b><i><u style="width:100%"></u></i></div>
+            <div class="skill-row"><span>React.js</span><b>FRAMEWORK</b><i><u style="width:100%"></u></i></div>
+            <div class="skill-row"><span>Java / C++</span><b>PROGRAMMING</b><i><u style="width:100%"></u></i></div>
+            <div class="skill-row"><span>Git / GitHub</span><b>WORKFLOW</b><i><u style="width:100%"></u></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section work-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="section-kicker">03 / SELECTED WORK</span>
+            <h2>Things I've<br /><em>worked on.</em></h2>
+          </div>
+          <p>Projects from my portfolio and learning journey. Each one helped me turn a concept into a working interface.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-large reveal tilt-card">
+            <a class="project-link" href="https://centralzoomohsin.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Open Central Zoo Website">
+              <div class="project-art project-image-art">
+                <img src="assets/central-zoo.png" alt="Central Zoo website preview" />
+                <span class="project-live">VIEW LIVE SITE <b>↗</b></span>
+              </div>
+            </a>
+            <div class="project-info">
+              <div><span>WEB EXPERIENCE</span><small>01</small></div>
+              <h3>Central Zoo Website</h3>
+              <p>A multi-page responsive experience for exploring animals, conservation and visitor information.</p>
+              <div class="tags"><b>HTML</b><b>CSS</b><b>Bootstrap</b><b>JavaScript</b></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay">
+            <div class="project-art travel-art">
+              <div class="mountain m1"></div><div class="mountain m2"></div><div class="sun"></div>
+              <div class="flight-line"></div>
+              <span class="art-label">TRAVEL</span>
+            </div>
+            <div class="project-info">
+              <div><span>WEB DESIGN</span><small>02</small></div>
+              <h3>Travel Agency Website</h3>
+              <p>A travel-focused interface designed around destinations, exploration and clear calls to action.</p>
+              <div class="tags"><b>HTML</b><b>CSS</b><b>Bootstrap</b></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-2">
+            <div class="project-art salesforce-art">
+              <div class="sf-cube"><span>✦</span></div>
+              <div class="sf-lines"></div>
+              <span class="art-label">LANDING PAGE</span>
+            </div>
+            <div class="project-info">
+              <div><span>UI / FRONTEND</span><small>03</small></div>
+              <h3>Salesforce Landing Page</h3>
+              <p>A focused landing page built around structure, hierarchy and responsive presentation.</p>
+              <div class="tags"><b>HTML</b><b>CSS</b><b>JavaScript</b></div>
+            </div>
+          </article>
+
+          <article class="project-card project-wide reveal">
+            <a class="project-link" href="https://mohsinaliasgharportfolio.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Open Mohsin Portfolio Website">
+              <div class="project-art project-image-art portfolio-preview-art">
+                <img src="assets/portfolio-preview.png" alt="Mohsin portfolio website preview" />
+                <span class="project-live">VIEW LIVE SITE <b>↗</b></span>
+              </div>
+            </a>
+            <div class="project-info">
+              <div><span>PERSONAL PROJECT</span><small>04</small></div>
+              <h3>Portfolio Website</h3>
+              <p>The original portfolio concept — now reimagined here as a more immersive 3D experience.</p>
+              <div class="tags"><b>HTML</b><b>CSS</b><b>JavaScript</b><b>3D</b></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section">
+      <div class="container">
+        <div class="process-strip reveal">
+          <div class="process-intro">
+            <span class="section-kicker">HOW I WORK</span>
+            <h2>Simple process.<br /><em>Solid result.</em></h2>
+          </div>
+          <div class="process-step"><span>01</span><strong>Explore</strong><p>Understand the idea, users and goal.</p></div>
+          <div class="process-step"><span>02</span><strong>Build</strong><p>Turn the concept into clean, responsive code.</p></div>
+          <div class="process-step"><span>03</span><strong>Refine</strong><p>Test, polish interactions and improve the details.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-inner reveal">
+        <span class="section-kicker">04 / CONTACT</span>
+        <h2>Have an idea?<br /><em>Let's build it.</em></h2>
+        <p>I'm open to opportunities, collaborations and interesting projects.</p>
+
+        <a class="contact-email magnetic" href="mailto:mohsinaliasgher9133@gmail.com">
+          <span>mohsinaliasgher9133@gmail.com</span><b>↗</b>
+        </a>
+
+        <div class="socials">
+          <a href="https://github.com/mohsin-ali" target="_blank" rel="noopener">GitHub <span>↗</span></a>
+          <a href="https://www.linkedin.com/in/mohsin-aliasgher-948b6334b" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© 2026 Mohsin Ali Asghar</span>
+      <span>Designed & built with curiosity.</span>
+      <a href="#home">BACK TO TOP ↑</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
